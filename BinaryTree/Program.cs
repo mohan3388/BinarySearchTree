@@ -10,9 +10,11 @@ class Program
         binarysearch.Insert(30);
         binarysearch.Insert(17);
         binarysearch.Insert(51);
-        binarysearch.Insert(62);
+        binarysearch.Insert(63);
         binarysearch.Insert(70);
         binarysearch.Display();
         binarysearch.GetSize();
+        bool result = binarysearch.IfExists(63, binarysearch);
+        Console.WriteLine(result);
     }
 }
